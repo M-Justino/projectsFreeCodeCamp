@@ -2,15 +2,51 @@
 <html lang="en">
   <head>
     <title>CatPhotoApp</title>
+    <!-- Internal CSS (tag)-->
+
+    <!--Importing a Google Font
+    Googlefonts database: https://fonts.google.com/
+    CSS API update: https://developers.google.com/fonts/docs/css2 -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    
+
+    
+    <style>
+      /*CSS class declaration*/
+      .red-text {
+        color:red;
+      }
+
+      /* Element CSS declaration*/
+      p {
+        font-size:16px;
+        font-family:monospace;
+      }
+
+      /**font-family: FAMILY_NAME, GENERIC_NAME; 
+      Rules: 
+      (1) GENERIC_NAME is optional, and is a fallback font in case the other specified font is not available. 
+      (2) Family names are case-sensitive
+      (3) Family names need to be wrapped in quotes if there is a space in the name (e.g. "Open Sans").
+      [1 and 2 does not apply to Generic font family] **/
+      h1{
+        font-family:Lobster, monospace;
+      }
+      
+    </style>
   </head>
   <body>
-    <h1>CatPhotoApp</h1>
+    <!-- Inline CSS (attribute)
+    <h1 style="color:red;">CatPhotoApp</h1> -->
+
+    <h1 class="red-text">CatPhotoApp</h1>
+    
     <main>
       <!-- Internal link -->
       <a href="#footer">Jump to Bottoms</a>
       
       <!--external link-->
-      <p>View more <a href="https://www.freecatphotoapp.com" target="_blank">cat photos</a>.</p>
+      <p class="red-text">Click here to view more <a href="https://www.freecatphotoapp.com" target="_blank">cat photos</a>.</p>
       
       <!-- Creating a dead link with hash symbol with img element nested within-->
       <a href="#"> <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
