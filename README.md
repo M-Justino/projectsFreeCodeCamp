@@ -5,11 +5,12 @@ You can check this code running at: https://projectsfreecodecamp.marilialopes.re
 
 ## In progress
 ### Responsive Web Design
-Languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design. 
+Languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design; 
 * __catPhotoApp:__ learning HTML by building a Cat Photo App;
 * __cafeMenu:__ learning Basic CSS by building a menu page for a cafe webpage;
-* __coloredMarkers:__ learning CSS colors by building a  set of colored markers.
-* * __registrationForm:__ learning HTML form by building a registration form.
+* __coloredMarkers:__ learning CSS colors by building a  set of colored markers;
+* __registrationForm:__ learning HTML form by building a registration form;
+* __CERTIFICATION PROJECT ONE:__ The Pet Friend Survey Form.
 
 
 * __catPhotoApp (Legacy):__ basic HTML and HTML5 / Basic CSS
