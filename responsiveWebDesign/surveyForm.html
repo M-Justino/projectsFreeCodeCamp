@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Pet Friend Survey</title>
+    <link rel="stylesheet" href="surveyForm_style.css">
+  </head>
+  <body>
+    <h1 id="title">The Pet Friend Survey Form</h1>
+    <p id="description">Help us discover details of our pets' adorable routines and quirks</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Name <input id="name" type="text" placeholder="Enter your name" required /> </label>
+        <label id="email-label" for="email">Email <input id="email" type="email" placeholder="Enter your email"required /> </label>
+        <label id="number-label" for="number">Age (optional) <input id="number" type="number" min="18" max="120" placeholder="Enter your age (min18)"/> </label>
+      </fieldset>
+      <fieldset>
+        <label for="dropdown">Pet Partnership Duration:
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Newbie (Less than 6 months)</option>
+            <option value="2">Building Bonds (6 months to 1 year)</option>
+            <option value="3">Growing Together (1 to 3 years)</option>
+            <option value="4">Years of Adventures (3 to 10 years)</option>
+            <option value="5">Cherished Elder (10 years or more)</option>
+          </select>
+        </label>
+        <p>Share a nugget of wisdom for someone on the pet-hunt</p>
+        <label for="coffee-consumption"><input id="coffee-consumption" value="1" type="radio" name="nugget-of-wisdom" class="inline"/>Match your pet's energy level with your coffee consumption.</label>
+        <label for="new-bestie"><input id="new-bestie" value="2" type="radio" name="nugget-of-wisdom" class="inline"/>Prepare to have a new bestie who always forgives bad mood days. </label>
+        <label for="love-measured"><input id="love-measured" value="3" type="radio" name="nugget-of-wisdom" class="inline"/> Remember, a pet's love comes in varying doses of size, but always full of affection. </label>
+      </fieldset>
+      <fieldset>
+        <p>Tell us about your adorable companion! What type of pet do you have?</p>
+        <label for="dog"><input id="dog" value="1" name="type-of-pet" type="checkbox" class="inline"/>A lovable dog</label>
+<label for="cat"><input id="cat" value="2" name="type-of-pet" type="checkbox" class="inline"/>A playful cat</label>
+<label for="bird"><input id="bird" value="3" name="type-of-pet" type="checkbox" class="inline"/>A chirpy bird</label>
+<label for="rabbit"><input id="rabbit" value="4" name="type-of-pet" type="checkbox" class="inline"/>A hoppy rabbit</label>
+<label for="repetile"><input id="repetile" value="5" name="type-of-pet" type="checkbox" class="inline"/>A scaly reptile</label>
+<label for="hamster"><input id="hamster" value="6" name="type-of-pet" type="checkbox" class="inline"/>A cuddly hamster</label>
+<label for="fish"><input id="fish" value="7" name="type-of-pet" type="checkbox" class="inline"/>A finned fish</label>
+<label for="horse"><input id="horse" value="8" name="type-of-pet" type="checkbox" class="inline"/>A majestic horse</label>
+<label for="guinea-pig"><input id="guinea-pig" value="9" name="type-of-pet" type="checkbox" class="inline"/>A charming guinea pig</label>
+<label for="tarantula"><input id="tarantula" value="10" name="type-of-pet" type="checkbox" class="inline"/>A mysterious tarantula</label>
+<label for="other"><input id="other" value="11" name="type-of-pet" type="checkbox" class="inline"/>My One-of-a-Kind Companion (other)</label>
+<label id="other-pet-label" for="other-pet">Share Your Unique Pet Pal! <input id="other-pet" type="text" placeholder="Enter your other type of pet" /> </label>
+<label for="story">Could you share the story of your relationship with pets? From your first furry encounter to your current companions, we'd love to hear your experiences and reflections.
+          <textarea id="story" name="story" rows="5" cols="30" placeholder="My pet story begins..."></textarea>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit"/>
+    </form>
+  </body>
+</html>

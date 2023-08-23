@@ -1,0 +1,84 @@
+*{
+  color: #17202A;
+}
+body{
+  background-image: linear-gradient( 145deg, rgba(93, 109, 126, 0.5), rgba(244, 244, 244, 0.9) ), url(https://images.unsplash.com/photo-1518365971303-fbb2d838ff37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+h1, #description{
+  margin: 1em auto;
+  text-align: center;
+  font-style: italic;
+}
+
+p{
+  text-align: left;
+  margin: 1em auto 1em 5px;
+}
+
+form{
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  background-color: rgba(255, 255, 2550, 0.5);
+}
+
+fieldset{
+  border: none;
+  padding: 1rem 0;
+  border-bottom: 3px solid rgb(93, 109, 126);
+}
+
+fieldset:last-of-type{
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem;
+}
+
+label[for="story"]{
+  padding: 2rem 0;
+}
+
+::placeholder{
+  color: #17202A;
+}
+
+input, textarea, select {
+  margin: 5px 0 0 0 ;
+  width: 100%;
+  min-height: 2em;
+  background-color: #a1a1a1;
+  border: none;
+}
+
+.inline{
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  min-width: 300px;
+  width: 60%;
+  margin: auto;
+  height: 2em;
+  font-size: 1.1rem;
+}
+
+input[type="submit"]:hover{
+  background-color: #17202A;
+  color: #ffffff;
+}
