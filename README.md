@@ -16,3 +16,4 @@ Languages that developers use to build webpages: HTML (Hypertext Markup Language
 
 ### __CERTIFICATION PROJECT TWO:__
 * __rothkoPainting:__ learning the CSS box model by building a Rothko Painting;
+*  __photoGallery:__ learning the CSS flexbox by building a photo gallery;
